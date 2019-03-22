@@ -1,0 +1,29 @@
+{
+  "name": "spacex-mission-status",
+  "version": "1.0.0",
+  "description": "GraphQL With React & Apollo Express GraphQL Server that list Spacex launch mission",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateenCode/Spacex-mission-status.git"
+  },
+  "author": "Mateen kazia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateenCode/Spacex-mission-status/issues"
+  },
+  "homepage": "https://github.com/MateenCode/Spacex-mission-status#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
